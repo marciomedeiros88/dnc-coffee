@@ -1,6 +1,6 @@
 .buttonatendimento{
-    border-radius: 2em;
-    background-color: #198754;
+    border-radius: 20px;
+    background-color: #2A3342;
     color: white;
     border: none;
     width:15em;
@@ -8,12 +8,15 @@
     font-size: 14pt;
     margin: auto;
     cursor: pointer;
+    transition-property: color;
+    transition-duration: 0.5s;
+    transition-delay: 200ms;
 }
 
 .buttonatendimento:hover{
     background-color: white;
-    color: #198754;
-    border: solid 1px #198754;
+    color: #2A3342;
+    border: solid 1px #2A3342;
 }
 
 .buttoncomprar{
