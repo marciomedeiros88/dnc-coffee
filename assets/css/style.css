@@ -1,0 +1,52 @@
+.buttonatendimento{
+    border-radius: 2em;
+    background-color: #198754;
+    color: white;
+    border: none;
+    width:15em;
+    height:3em;
+    font-size: 14pt;
+    margin: auto;
+    cursor: pointer;
+}
+
+.buttonatendimento:hover{
+    background-color: white;
+    color: #198754;
+    border: solid 1px #198754;
+}
+
+.buttoncomprar{
+    border-radius: 10px;
+    background-color: #2A3342;
+    color: white;
+    width:200px;
+    height:auto;
+    font-size: 14pt;
+    text-align: center;
+    padding: 0.5em;
+    margin: auto;
+    visibility: hidden;
+    cursor: pointer;
+    transition-property: color;
+    transition-duration: 0.5s;
+    transition-delay: 200ms;
+}
+
+.buttoncomprar:hover{
+    background-color: white;
+    color: #2A3342;
+    border: solid 1px #2A3342;
+}
+
+.estilocard{
+    background-color: white;
+    height: 22em;
+    transition: all 0.5s;
+}
+
+.estilocard:hover{
+    background-color: white;
+    height: 23em;
+    transition: all 0.5s;
+}
